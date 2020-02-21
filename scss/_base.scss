@@ -1,7 +1,3 @@
-body{
-  background-color: lightblue;
-}
-
 #container{ /*A box that will contain the entire website for centering purposes*/
 	width:100%; /*The container will try to fill the entire browser window width*/
 	max-width:960px; /*the maximum width the container will grow to*/
@@ -23,6 +19,15 @@ body{
 	width:96%;
 	padding:2%;
 	box-sizing:border-box;
+}
+
+.fullwidth1{
+	/* background-color:rgb(175,175,175); */
+	margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+  text-align: center;
 }
 
 .halfwidth{
@@ -64,3 +69,13 @@ body{
 	padding:2%;
 	box-sizing:border-box;
 }
+
+body{
+  background-color: lightblue;
+}
+header{
+  @include box;
+  h1{
+    font-family: Ubuntu, helvetica, sans-serif;
+  }//h1
+}//header
