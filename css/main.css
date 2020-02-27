@@ -1,1 +1,108 @@
-#container{width:100%;max-width:1000px;margin:0px auto;padding:0px;box-sizing:border-box;display:flex;flex-wrap:wrap;flex-direction:row;align-content:flex-start;align-items:stretch}.fullwidth{margin:2%;width:96%;padding:2%;box-sizing:border-box}.fullwidth1{margin:2%;width:96%;padding:2%;box-sizing:border-box;text-align:center}.halfwidth{background:#FFB2A8;border:solid 2px black;-webkit-border-radius:25px;border-radius:25px;margin:2%;width:46%;padding:2%;box-sizing:border-box}.thirdwidth{margin:2%;width:29.33333333%;padding:2%;box-sizing:border-box}.quarterwidth{margin:2%;width:21%;padding:2%;box-sizing:border-box}.sixthwidth{margin:2%;width:12.6666666%;padding:2%;box-sizing:border-box}.eigthwidth{margin:2%;width:8.5%;padding:2%;box-sizing:border-box}body{background-color:lightblue}header{background:#FFB2A8;border:solid 2px black;-webkit-border-radius:25px;border-radius:25px}header h1{font-family:Ubuntu, helvetica, sans-serif}nav{text-align:center}nav ul{margin-left:-40px}nav ul li{font-family:Alata, helvetica, sans-serif;font-size:2em;list-style:none;display:inline-block;padding-right:20px}nav ul li a{text-decoration:none;padding:10px}nav ul li a:link,nav ul li a:visited{color:black}nav ul li a:hover,nav ul li a:active{background:#FFB2A8;border:solid 2px black;-webkit-border-radius:25px;border-radius:25px;background:#82d46e;color:white}
+#container {
+  /*A box that will contain the entire website for centering purposes*/
+  width: 100%;
+  /*The container will try to fill the entire browser window width*/
+  max-width: 1000px;
+  /*the maximum width the container will grow to*/
+  margin: 0px auto;
+  /*This line of code is the KEY.  0px margin top and bottom, auto margin left and right to center*/
+  /* background-color:rgb(225,225,225); */
+  padding: 0px;
+  box-sizing: border-box;
+  /*Makes it so that padding does not add to a box's total width*/
+  display: flex;
+  flex-wrap: wrap;
+  /*wrap, nowrap, wrap-reverse*/
+  flex-direction: row;
+  /*row, row-reverse, column, column-reverse*/
+  align-content: flex-start;
+  /*flex-start, flex-end, center, stretch, space-between, space around*/
+  align-items: stretch;
+  /*flex-end, center, stretch, baseline*/ }
+
+.fullwidth {
+  /* background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 96%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+.fullwidth1 {
+  /* background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 96%;
+  padding: 2%;
+  box-sizing: border-box;
+  text-align: center; }
+
+.halfwidth {
+  /* background-color:rgb(175,175,175); */
+  background: #FFB2A8;
+  border: solid 2px black;
+  border-radius: 25px;
+  margin: 2%;
+  width: 46%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+.thirdwidth {
+  /* background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 29.33333333%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+.quarterwidth {
+  /*background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 21%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+.sixthwidth {
+  /* background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 12.6666666%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+.eigthwidth {
+  /* background-color:rgb(175,175,175); */
+  margin: 2%;
+  width: 8.5%;
+  padding: 2%;
+  box-sizing: border-box; }
+
+body {
+  background-color: lightblue; }
+
+header {
+  background: #FFB2A8;
+  border: solid 2px black;
+  border-radius: 25px; }
+  header h1 {
+    font-family: Ubuntu, helvetica, sans-serif; }
+
+nav {
+  text-align: center; }
+  nav ul {
+    margin-left: -40px; }
+    nav ul li {
+      font-family: Alata, helvetica, sans-serif;
+      font-size: 2em;
+      list-style: none;
+      display: inline-block;
+      padding-right: 20px; }
+      nav ul li a {
+        text-decoration: none;
+        padding: 10px; }
+      nav ul li a:link, nav ul li a:visited {
+        color: black; }
+      nav ul li a:hover, nav ul li a:active {
+        background: #FFB2A8;
+        border: solid 2px black;
+        border-radius: 25px;
+        background: #82d46e;
+        color: white; }
+
+/*# sourceMappingURL=main.css.map */
